@@ -20,6 +20,9 @@ public class main {
 		//creating uc6 object
 		UC6 uc6=new UC6();
 		uc6.password("Pratik12");
+		//creating uc7 object
+		UC7 uc7=new UC7();
+		uc7.password("A0aaaaaaa");
 
 	}
 }
