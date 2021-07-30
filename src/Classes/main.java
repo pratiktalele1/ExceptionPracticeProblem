@@ -23,6 +23,9 @@ public class main {
 		//creating uc7 object
 		UC7 uc7=new UC7();
 		uc7.password("A0aaaaaaa");
+		//creating uc8 object
+		UC8 uc8=new UC8();
+		uc8.password("A0*aaaaaa");
 
 	}
 }
