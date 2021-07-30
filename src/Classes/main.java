@@ -14,6 +14,9 @@ public class main {
 		//creating uc4 object
 		UC4 uc4=new UC4();
 		uc4.phoneNumber("91 8421863149");
+		//creating uc5 object
+		UC5 uc5=new UC5();
+		uc5.password("asdasdfg");
 
 	}
 }
