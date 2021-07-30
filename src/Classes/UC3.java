@@ -1,10 +1,13 @@
 package Classes;
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class UC3 {
 	// validating email
-		public int email(String str) {
+	public int email(String str) {
+		try {
+
 			int flag = 0;
 			Pattern pattern = Pattern.compile("^abc.[A-Za-z]+@bl.co");
 			Matcher matcher = pattern.matcher(str);
@@ -19,5 +22,9 @@ public class UC3 {
 				return 0;
 			}
 
+		} catch (Exception e) {
+			System.out.println("exception found :: " + e);
+			return 0;
 		}
+	}
 }
