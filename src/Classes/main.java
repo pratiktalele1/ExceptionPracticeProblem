@@ -1,7 +1,7 @@
 package Classes;
 
 public class main {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws invalidUserDetails {
 		// creating uc1 object
 		UC1 uc1 = new UC1();
 		uc1.firstName("Pratik");
@@ -29,6 +29,9 @@ public class main {
 		//creating uc9 object
 		UC9 uc9=new UC9();
 		uc9.password("A0*aaaaaa");
+		//creating uc12 object
+		UC12 uc12=new UC12();
+		uc12.validUserDetail();
 
 	}
 }
